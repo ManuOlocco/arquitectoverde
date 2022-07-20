@@ -1,0 +1,219 @@
+/* Codigo colores Arq Verde "e89c4c" "da513c" "56662b" */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: #da513c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menuPrincipal ul li a{
+    text-decoration: none;
+}
+.menuPrincipalLista{
+    margin: 0 auto;
+    width: fit-content;
+}
+.menuPrincipalListaItem {
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #da513c;
+}
+
+.contactos ul li a{
+    text-decoration: none;
+    display: inline-block;
+    width: fit-content;
+}
+
+header {
+    background-color: #56662b;
+}
+
+main {
+    background-color: black;
+}
+
+footer {
+    background-color: #56662b;
+}
+
+.logoPrincipal {
+    text-align: center;
+    display: block;
+}
+
+.serviciosPrincipalesLista {
+    text-align: center;
+    display: flex;
+    margin: 2.5rem auto;
+    width: fit-content;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.serviciosPrincipalesListaItem {
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #da513c;
+}
+
+.serviciosPrincipalesListaItem {
+    width: 400px;
+}
+
+.serviciosPrincipalesListaItem-h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.serviciosPrincipalesListaItem-P {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #e89c4c;
+}
+
+.serviciosPrincipalesListaItem-GreenDoctor {
+    text-decoration: none;
+}
+.contactosLista{
+    display: flex;
+    list-style: none;
+}
+
+.ubicacion {
+    margin: 1rem;
+}
+.contactosListaItem{
+    padding: .8rem;
+}
+
+.contenidoFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formularioRepro {
+    color: #da513c;
+}
+.reprocann {
+    color: #e89c4c;
+}
+
+.tablaProductos {
+    color: #56662b;
+}
+
+.video {
+    text-align: center;
+    display: flex;
+    margin: 2.5rem auto;
+    width: fit-content;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.videoSala {
+    width: 400px;
+    height: 400px;
+    border: #e89c4c;
+}
+
+.videoIndoor {
+    width: 400px;
+    height: 400px;
+}
+
+.videoTitulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #da513c;
+}
+
+
+.invernaderoLista {
+    text-align: center;
+    display: flex;
+    margin: 2.5rem auto;
+    width: fit-content;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.invernaderoListaItem {
+    width: 10%;
+    height: 10%;
+}
+
+.Ofertas{
+    margin: auto;
+    background-color: #e89c4c;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+
+ul.OfertasLista{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.OfertasLista li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity.5s;
+      background:#da513c;
+  }
+  
+  ul.OfertasLista li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.OfertasLista li:first-child {
+      opacity: 1;
+  }
+  
+  ul.OfertasLista li:target {
+      opacity: 1; 
+  }
+  .Menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .Menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .Menu li a{
+    display: inline-block;
+    color: #da513c;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }

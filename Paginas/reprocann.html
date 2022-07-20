@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>arquitectoverde</title>
+</head>
+<body>
+    <header>
+        <!--logo y  el nav-->
+        <div class="logoPrincipal"><img src="../Imagenes/LOGO ARQ VERDE.jpeg" alt="Logo Pagina" width="300" height="300"></div>
+        <nav class="menuPrincipal">
+            <ul class="menuPrincipalLista">
+                <li class="menuPrincipalListaItem"><a href="../index.html">Home</a></li>
+                <li class="menuPrincipalListaItem"><a href="./invernaderos.html">Invernaderos</a></li>
+                <li class="menuPrincipalListaItem"><a href="./salaseindoors.html">Salas e Indoors</a></li>
+                <li class="menuPrincipalListaItem"><a href="./productos.html">Productos</a></li>
+                <li class="menuPrincipalListaItem"><a href="#">Reprocann</a></li>
+                <li class="menuPrincipalListaItem"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>REPROCANN</h1>
+        </section>
+        <section>
+            <!--imagen-->
+            <div class="reprocann">
+                <h3>¿Qué es el “Registro del Programa de Cannabis” (REPROCANN)?</h3>
+                    <p>El REPROCANN es una base de datos diseñada para poder registrar a aquellas personas que 
+                    cuenten con las condiciones para acceder a un cultivo controlado de la planta de cannabis, 
+                    con fines de tratamiento medicinal, terapéutico y/o paliativo del dolor. La inscripción 
+                    concluye con la extensión de un certificado de cultivo autorizado por el Ministerio de 
+                    Salud de la Nación.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Completa con tus Datos</h2>
+            <!--Formulario REPROCANN-->
+        </section>
+        <section>
+            <form class="formularioRepro">
+                <div>
+                    <input type="text" placeholder="Nombre Completo">
+                </div>
+                <p>Mail</p>
+                <div>
+                    <input type="email">
+                </div>
+                <p>Nro de Celular</p>
+                <div>
+                    <input type="tel">
+                </div>
+                <p>Usted cultiva?</p>
+                <div>
+                    <input type="radio" id="autocultivador" name="Rol" value="Paciente: Persona en tratamiento que puede autocultivar o vincularse un cultivador/a solidario/a.">
+                    <label for="autocultivador">Paciente: Persona en tratamiento que puede autocultivar o vincularse un cultivador/a solidario/a.</label><br>
+                    <input type="radio" id="cultivadorsolidario" name="Rol" value="Cultivador Solidario: Persona que cultiva para un tercero">
+                    <label for="cultivadorsolidario">Cultivador Solidario: Persona que cultiva para un tercero</label><br>
+                </div>
+                <p>Explique en pocas palabras la Patología por la cual utiliza el Cannabis</p>
+                <div>
+                    <input type="text" placeholder="Patología">
+                </div>
+            </form>
+        </section>
+     </main>
+     <footer>
+        <div class="contenidoFooter">
+            <section class="contactos">
+                <ul class="contactosLista">
+                    <li class="contactosListaItem"><a href="https://www.facebook.com/Arquitecto-Verde-103452695669411" target="_blank"><img src="../Imagenes/logo facebook.png" alt="logoFacebook" width="30" height="30"></a></li>
+                    <li class="contactosListaItem"><a href="https://www.instagram.com/arquitecto.verde/" target="_blank"><img src="../Imagenes/logo instagram.png" alt="logoInstagram" width="30" height="30"></a></li>
+                    <li class="contactosListaItem"><a href="https://api.whatsapp.com/send?phone=543513477529" target="_blank"><img src="../Imagenes/logo whatsapp.png" alt="logoWhatsapp" width="30" height="30"></a></li>
+                </ul>
+            </section>
+            <section class="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108977.03828706787!2d-64.194344!3d-31.3994532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432985f478f5b69%3A0xb0a24f9a5366b092!2zQ8OzcmRvYmE!5e0!3m2!1ses-419!2sar!4v1654809412250!5m2!1ses-419!2sar"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </div>    
+    </footer>
+</body>
+</html>
